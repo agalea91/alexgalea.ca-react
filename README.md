@@ -1,16 +1,21 @@
 # [alexgalea.ca](https://alexgalea.ca/)
 
-If project breaks, run `react-static create` and use the `basic` template as a starting point. Then do `yarn add styled-components`. Using version 6.3.3 of react static and version 1.13.0 of yarn.
+If project breaks, run `react-static create` and use the `basic` template as a starting point. Then run the following to add packages:
 
-TODO:
- - Set up site on AWS
- - Add logo to homepage
+```
+yarn add styled-components
+yarn add react-toastify
+```
+
+Using version 6.3.3 of react static and version 1.13.0 of yarn.
 
 ## Developing
 
 Launch development server with `react-static start`. But you can also use yarn and I find that more reliable:
 
-`yarn start`
+```
+yarn start
+```
 
 ## Building/updating site
 

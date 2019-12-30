@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Sree+Krushnadevaraya');
+
+/* Misc */
+body {
+  /* font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+    'Lucida Grande', sans-serif; */
+  font-family: 'Sree Krushnadevaraya', serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #ff4242;
+  font-weight: bold;
+}
+ul {
+  text-align: left;
+}
+li {
+  margin-bottom: 2rem;
+}
+/* nav {
+  width: 100%;
+  background: #ff4242;
+}
+nav a {
+  color: white;
+  padding: 1rem;
+  display: inline-block;
+} */
+.main-div {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+/* Text */ 
+.text-title-1 {
+  color:white;
+  font-size: 140px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.text-title-2 {
+  color: white;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-bottom: 100px;
+}
+.text-title-3 {
+  color: white;
+  font-size: 30px;
+  line-height: 0.4;
+}
+.text-body-1 {
+  color: black;
+  font-size: 30px;
+  line-height: 1;
+  /* padding-top: 0vh; */
+  /* padding-bottom: 0vh; */
+  margin: auto;
+  /* text-align: left; */
+  width: 500px;
+  max-width: 95%;
+}
+.vertical-align {
+  /* Vertical align */
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Background */
+.bg-banner {
+  /* Size */
+  height: 10px;
+  width: 100%;
+  /* Position */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* z-index: -1; */
+}
+.bg-1 {
+  /* Size */
+  height: 100%;
+  width: auto;
+  /* Position */
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+.bg-2 {
+  /* Size */
+  width: 100%;
+  min-height: 50%;
+  height: auto;
+  /* Position */
+  position: absolute;
+  top: 95%;
+  left: 0;
+}
+.bg-3 {
+  /* Size */
+  width: 100%;
+  height: 50%;
+  /* Position */
+  position: absolute;
+  top: 170%;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-white-grad {
+  background-image: linear-gradient(rgba(0,0,0,0) 0%, white 50%, rgba(0,0,0,0) 100%);
+}
+#homepage-bg-img-1 {
+  opacity: 0.8;
+}
+#homepage-bg-img-3 {
+  opacity: 1;
+  /* Size */
+  width: 200px;
+  height: auto;
+  /* Position */
+  position: relative;
+  padding: 10vh;
+  margin: auto;
+
+}
+#wedding-videos-bg-img-1 {
+  opacity: 0.8;
+}
+
+.fullscreen-photo-gallery {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+/* @media screen and (max-width: 1024px) { 
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   
+  }
+} */
+
