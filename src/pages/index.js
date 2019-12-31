@@ -8,12 +8,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
 
-const Cards = styled.div`
-  min-width: 30%;
-  max-width: 90%;
-  margin: auto;
-`
-
 const Card = styled.a`
   flex: 1 1 150px;
   border: 1px rgb(0,0,0,0.2);
@@ -156,18 +150,18 @@ export default withSiteData(() => (
           Get in touch ⬇
         </p>
         <div>
-          <Cards>
+          <div className="card-container">
             <EmailCard>
               <InnerEmailCard id="inner-email-card" onClick={copyEmail}>agalea91@gmail.com</InnerEmailCard>
             </EmailCard>
-          </Cards>
+          </div>
         </div>
       </div>
       
       <div className="bg-2">
         <div>
         {/* <div style={{paddingTop: "100px"}}> */}
-          <Cards>
+          <div className="card-container">
             {/* <Card>
               <div id="iframe-parent"></div>
             </Card> */}
@@ -206,8 +200,8 @@ export default withSiteData(() => (
             {/* <Card href="https://kavacay.wordpress.com/" target="_blank" >
               <InnerCard>Vacay 🌴</InnerCard>
             </Card> */}
-          </Cards>
-          <Cards style={{display: "flex", flexWrap: "wrap"}}>
+          </div>
+          <div className="card-container" style={{display: "flex", flexWrap: "wrap"}}>
             <Card
               style={{'background': 'rgba(0, 0, 0, 0.3)', 'max-width': '400px', 'width': '200px'}}
               href="https://github.com/agalea91"
@@ -228,7 +222,7 @@ export default withSiteData(() => (
             {/* <Card href="https://kavacay.wordpress.com/" target="_blank" >
               <InnerCard>Vacay 🌴</InnerCard>
             </Card> */}
-          </Cards>
+          </div>
         </div>
       </div>
     </div>
