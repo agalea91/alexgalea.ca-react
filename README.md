@@ -38,6 +38,6 @@ aws s3 sync --acl public-read --sse --delete dist s3://alexgalea.ca
 ```
 Invalidate cloudfront cache
 ```
-aws cloudfront create-invalidation --distribution-id YOUR_DIST_ID --paths '/*'
+aws cloudfront create-invalidation --distribution-id E2JTJP15FWKFBS --paths '/*'
 ```
 
