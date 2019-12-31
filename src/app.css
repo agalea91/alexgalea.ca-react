@@ -46,9 +46,17 @@ nav a {
 }
 .card-container {
   min-width: 30%;
-  max-width: 90%;
+  /* max-width: 90%; */
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 800px;
   margin: auto;
-  width: 800px;
+  /* width: 800px; */
+}
+
+/* Images */
+.image-white-frame {
+  border-radius: 5px;
 }
 
 /* Text */ 
@@ -152,10 +160,6 @@ nav a {
   opacity: 0.8;
 }
 
-.fullscreen-photo-gallery {
-  max-width: 100%;
-  padding-top: 10px;
-}
 
 /* @media screen and (max-width: 1024px) { 
   img.bg {

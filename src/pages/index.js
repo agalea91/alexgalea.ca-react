@@ -1,11 +1,11 @@
 import React from 'react'
 import { withSiteData } from 'react-static'
 import bgImg1 from '../../public/alex_galea_raven.jpg'
-import bgImg3 from '../../public/rose_white.png'
+import alexPic1 from '../../public/alex_galea_alberta.jpg'
 import styled from 'styled-components'
 import { Link } from '@reach/router'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.min.css';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.min.css'
 
 
 const Card = styled.a`
@@ -93,33 +93,11 @@ const InnerEmailCard = styled.div`
   margin-bottom: 15px;
 `
 
-const BgBlock = styled.div`
-  /* Size */
-  width: 100%;
-  height: ${props => props.height};
-  /* Position */
-  position: absolute;
-  top: ${props => props.top};
-  left: 0;
-`
-
-const Image = styled.img`
-  opacity: 1;
-  /* Size */
-  width: 200px;
-  height: auto;
-  /* Position */
-  position: relative;
-  padding: 10vh;
-  margin: auto;
-`
-
-
-function iframeRender(url, id) {
-  var iframe = document.createElement("iframe");
-  iframe.src = url;
-  document.getElementById(id).appendChild(iframe);
-}
+// function iframeRender(url, id) {
+//   var iframe = document.createElement("iframe");
+//   iframe.src = url;
+//   document.getElementById(id).appendChild(iframe);
+// }
 
 
 function copyEmail(url, id) {
@@ -159,78 +137,70 @@ export default withSiteData(() => (
       </div>
       
       <div className="bg-2">
-        <div>
-        {/* <div style={{paddingTop: "100px"}}> */}
-          <div className="card-container">
-            {/* <Card>
-              <div id="iframe-parent"></div>
-            </Card> */}
-            <Card
-              style={{'background': 'rgba(65, 240, 158, 0.4)'}}
-              href="https://medium.com/@galea"
-              target="_blank"
-              // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
-            >
-              <InnerCard>Medium Blog</InnerCard>
-            </Card>
-            <Card
-              style={{'background': 'rgba(65, 100, 240, 0.4)'}}
-              href="https://www.linkedin.com/in/alex-galea/"
-              target="_blank"
-            >
-              <InnerCard>Linkedin</InnerCard>
-            </Card>
-            <Card
-              style={{'background': 'rgba(240, 65, 170, 0.59)'}}
-              href="https://www.amazon.com/Beginning-Data-Science-Python-Jupyter/dp/1789532027/"
-              target="_blank"
-            >
-              <InnerCard>Beginning Data Science Book</InnerCard>
-            </Card>
-            <Card
-              style={{'background': 'rgba(167, 65, 240, 0.3)'}}
-              href="https://arxiv.org/pdf/1511.05123.pdf"
-              target="_blank"
-            >
-              <InnerCard>M.Sc. Quantum Gas Paper</InnerCard>
-            </Card>
-            {/* <LinkCard to="/blog">
-              <InnerCard>Blog</InnerCard>
-            </LinkCard> */}
-            {/* <Card href="https://kavacay.wordpress.com/" target="_blank" >
-              <InnerCard>Vacay 🌴</InnerCard>
-            </Card> */}
-          </div>
-          <div className="card-container" style={{display: "flex", flexWrap: "wrap"}}>
-            <Card
-              style={{'background': 'rgba(0, 0, 0, 0.3)', 'max-width': '400px', 'width': '200px'}}
-              href="https://github.com/agalea91"
-              target="_blank"
-            >
-              <InnerCard>GitHub Profile</InnerCard>
-            </Card>
-            <Card
-              style={{'background': 'rgba(65, 231, 240, 0.3)', 'max-width': '400px', 'width': '200px'}}
-              href="https://galeascience.wordpress.com/"
-              target="_blank"
-            >
-              <InnerCard>DataViz Blog</InnerCard>
-            </Card>
-            {/* <LinkCard to="/blog">
-              <InnerCard>Blog</InnerCard>
-            </LinkCard> */}
-            {/* <Card href="https://kavacay.wordpress.com/" target="_blank" >
-              <InnerCard>Vacay 🌴</InnerCard>
-            </Card> */}
-          </div>
+        <div className="card-container">
+          {/* <Card>
+            <div id="iframe-parent"></div>
+          </Card> */}
+          {/* <LinkCard to="/blog">
+            <InnerCard>Blog</InnerCard>
+          </LinkCard> */}
+          <Card
+            style={{'background': 'rgba(65, 240, 158, 0.4)'}}
+            href="https://medium.com/@galea"
+            target="_blank"
+            // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
+          >
+            <InnerCard>Medium Blog</InnerCard>
+          </Card>
+          <Card
+            style={{'background': 'rgba(65, 100, 240, 0.4)'}}
+            href="https://www.linkedin.com/in/alex-galea/"
+            target="_blank"
+          >
+            <InnerCard>Linkedin</InnerCard>
+          </Card>
+          <Card
+            style={{'background': 'rgba(240, 65, 170, 0.59)'}}
+            href="https://www.amazon.com/Beginning-Data-Science-Python-Jupyter/dp/1789532027/"
+            target="_blank"
+          >
+            <InnerCard>My Data Science Book</InnerCard>
+          </Card>
+          <Card
+            style={{'background': 'rgba(167, 65, 240, 0.3)'}}
+            href="https://arxiv.org/pdf/1511.05123.pdf"
+            target="_blank"
+          >
+            <InnerCard>My Quantum Gas Paper</InnerCard>
+          </Card>
         </div>
+        <div className="card-container" style={{display: "flex", flexWrap: "wrap"}}>
+          <Card
+            style={{'background': 'rgba(0, 0, 0, 0.3)', 'max-width': '400px', 'width': '200px'}}
+            href="https://github.com/agalea91"
+            target="_blank"
+          >
+            <InnerCard>GitHub Profile</InnerCard>
+          </Card>
+          <Card
+            style={{'background': 'rgba(65, 231, 240, 0.3)', 'max-width': '400px', 'width': '200px'}}
+            href="https://galeascience.wordpress.com/"
+            target="_blank"
+          >
+            <InnerCard>DataViz Blog</InnerCard>
+          </Card>
+        </div>
+        <div className="card-container">
+          <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
+            <img
+              className="image-white-frame"
+              alt="Alex Galea hiking in Alberta, Canada"
+              src={alexPic1} width="100%"
+            ></img>
+          </a>
+        </div>
+        <div style={{'padding-top': '100px'}}></div>
       </div>
     </div>
-    {/* <div className="main-div">
-      <BgBlock top="170%">
-        <Image src={bgImg3} alt="" />
-      </BgBlock>
-    </div> */}
-    {/* <BgBlock top="250%" height="100px"></BgBlock> */}
   </div>
 ))
