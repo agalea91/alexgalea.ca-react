@@ -114,7 +114,7 @@ export default withSiteData(() => (
       autoClose={2000}
     />
     <div className="main-div">
-      <img className="bg-1" id="homepage-bg-img-1" src={bgImg1} alt=""></img>
+      <img className="bg-img" id="homepage-bg-img-1" src={bgImg1} alt=""></img>
       <div className="bg-banner bg-white"></div>
       <div>
         <p className="text-title-1">
@@ -134,9 +134,6 @@ export default withSiteData(() => (
             </EmailCard>
           </div>
         </div>
-      </div>
-      
-      <div className="bg-2">
         <div className="card-container">
           {/* <Card>
             <div id="iframe-parent"></div>

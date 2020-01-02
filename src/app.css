@@ -109,7 +109,7 @@ nav a {
   left: 0;
   /* z-index: -1; */
 }
-.bg-1 {
+.bg-img {
   /* Size */
   height: 100%;
   width: auto;
@@ -118,24 +118,6 @@ nav a {
   top: 0;
   z-index: -1;
 }
-.bg-2 {
-  /* Size */
-  width: 100%;
-  min-height: 50%;
-  height: auto;
-  /* Position */
-  position: absolute;
-  top: 95%;
-  left: 0;
-}
-.bg-3 {
-  /* Size */
-  width: 100%;
-  height: 50%;
-  /* Position */
-  position: absolute;
-  top: 170%;
-}
 .bg-white {
   background-color: white;
 }
@@ -143,20 +125,6 @@ nav a {
   background-image: linear-gradient(rgba(0,0,0,0) 0%, white 50%, rgba(0,0,0,0) 100%);
 }
 #homepage-bg-img-1 {
-  opacity: 0.8;
-}
-#homepage-bg-img-3 {
-  opacity: 1;
-  /* Size */
-  width: 200px;
-  height: auto;
-  /* Position */
-  position: relative;
-  padding: 10vh;
-  margin: auto;
-
-}
-#wedding-videos-bg-img-1 {
   opacity: 0.8;
 }
 
