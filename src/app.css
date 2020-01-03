@@ -51,7 +51,13 @@ nav a {
   padding-left: 20px;
   max-width: 800px;
   margin: auto;
+  margin-bottom: 50px;
   /* width: 800px; */
+}
+#ai-ecommerce-slideshare {
+  width: 95vw;
+  height: 50vw;
+  max-width: 100%;
 }
 
 /* Images */

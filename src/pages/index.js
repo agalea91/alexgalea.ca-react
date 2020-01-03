@@ -99,6 +99,8 @@ const InnerEmailCard = styled.div`
 //   document.getElementById(id).appendChild(iframe);
 // }
 
+var aiEcommSlidesIframe = '<iframe src="//www.slideshare.net/slideshow/embed_code/key/FBlgxt273KGX8R" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; width: 100%; height: 100%;" allowfullscreen> </iframe>';
+
 
 function copyEmail(url, id) {
   navigator.clipboard.writeText("agalea91@gmail.com");
@@ -135,6 +137,15 @@ export default withSiteData(() => (
           </div>
         </div>
         <div className="card-container">
+          <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
+            <img
+              className="image-white-frame"
+              alt="Alex Galea hiking in Alberta, Canada"
+              src={alexPic1} width="100%"
+            ></img>
+          </a>
+        </div>
+        <div className="card-container">
           {/* <Card>
             <div id="iframe-parent"></div>
           </Card> */}
@@ -168,7 +179,7 @@ export default withSiteData(() => (
             href="https://arxiv.org/pdf/1511.05123.pdf"
             target="_blank"
           >
-            <InnerCard>My Quantum Gas Paper</InnerCard>
+            <InnerCard>My M.Sc Cold Atoms Paper</InnerCard>
           </Card>
         </div>
         <div className="card-container" style={{display: "flex", flexWrap: "wrap"}}>
@@ -188,13 +199,11 @@ export default withSiteData(() => (
           </Card>
         </div>
         <div className="card-container">
-          <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
-            <img
-              className="image-white-frame"
-              alt="Alex Galea hiking in Alberta, Canada"
-              src={alexPic1} width="100%"
-            ></img>
-          </a>
+          <div
+            id="ai-ecommerce-slideshare"
+            contentEditable="true"
+            dangerouslySetInnerHTML={{ __html: aiEcommSlidesIframe }}>
+          </div>
         </div>
         <div style={{'padding-top': '100px'}}></div>
       </div>
