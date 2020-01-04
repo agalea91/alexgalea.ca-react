@@ -51,7 +51,7 @@ nav a {
   padding-left: 20px;
   max-width: 800px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   /* width: 800px; */
 }
 #ai-ecommerce-slideshare {
@@ -132,6 +132,14 @@ nav a {
 }
 #homepage-bg-img-1 {
   opacity: 0.8;
+}
+
+/* Pictures */
+#ecom-slide-pic:hover {
+  opacity: 70%;
+}
+#alex-hiking-pic:hover {
+  opacity: 70%;
 }
 
 

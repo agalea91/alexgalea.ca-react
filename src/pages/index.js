@@ -2,6 +2,7 @@ import React from 'react'
 import { withSiteData } from 'react-static'
 import bgImg1 from '../../public/alex_galea_raven.jpg'
 import alexPic1 from '../../public/alex_galea_alberta.jpg'
+import ecomSlidePic from '../../public/alex_galea_ecom_analytics.png'
 import styled from 'styled-components'
 import { Link } from '@reach/router'
 import { ToastContainer, toast } from 'react-toastify'
@@ -99,14 +100,14 @@ const InnerEmailCard = styled.div`
 //   document.getElementById(id).appendChild(iframe);
 // }
 
-var aiEcommSlidesIframe = '<iframe src="//www.slideshare.net/slideshow/embed_code/key/FBlgxt273KGX8R" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; width: 100%; height: 100%;" allowfullscreen> </iframe>';
+// var aiEcommSlidesIframe = '<iframe src="https://www.slideshare.net/slideshow/embed_code/key/FBlgxt273KGX8R" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%; width: 100%; height: 100%;" allowfullscreen> </iframe>';
+var aiEcommSlidesIframe = '<iframe src="//www.slideshare.net/slideshow/embed_code/key/FBlgxt273KGX8R" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/AlexanderGalea1/using-ai-for-ecommerce-analytics" title="Using AI for Ecommerce Analytics" target="_blank">Using AI for Ecommerce Analytics</a> </strong> from <strong><a href="https://www.slideshare.net/AlexanderGalea1" target="_blank">Alexander Galea</a></strong> </div>';
 
 
 function copyEmail(url, id) {
   navigator.clipboard.writeText("agalea91@gmail.com");
   toast.info('Email copied to clipboard!', {containerId: 'A'});
 }
-
 
 export default withSiteData(() => (
   <div className="wrapper">
@@ -140,6 +141,7 @@ export default withSiteData(() => (
           <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
             <img
               className="image-white-frame"
+              id="alex-hiking-pic"
               alt="Alex Galea hiking in Alberta, Canada"
               src={alexPic1} width="100%"
             ></img>
@@ -184,14 +186,14 @@ export default withSiteData(() => (
         </div>
         <div className="card-container" style={{display: "flex", flexWrap: "wrap"}}>
           <Card
-            style={{'background': 'rgba(0, 0, 0, 0.3)', 'max-width': '400px', 'width': '200px'}}
+            style={{'background': 'rgba(0, 0, 0, 0.3)', 'maxWidth': '400px', 'width': '200px'}}
             href="https://github.com/agalea91"
             target="_blank"
           >
             <InnerCard>GitHub Profile</InnerCard>
           </Card>
           <Card
-            style={{'background': 'rgba(65, 231, 240, 0.3)', 'max-width': '400px', 'width': '200px'}}
+            style={{'background': 'rgba(65, 231, 240, 0.3)', 'maxWidth': '400px', 'width': '200px'}}
             href="https://galeascience.wordpress.com/"
             target="_blank"
           >
@@ -199,13 +201,22 @@ export default withSiteData(() => (
           </Card>
         </div>
         <div className="card-container">
-          <div
-            id="ai-ecommerce-slideshare"
-            contentEditable="true"
-            dangerouslySetInnerHTML={{ __html: aiEcommSlidesIframe }}>
+          <div id="ecom-slide-pic">
+            <a href="https://www.slideshare.net/AlexanderGalea1/using-ai-for-ecommerce-analytics">
+              <img
+                className="image-white-frame"
+                alt="Alex Galea Using AI for Ecommerce Analytics"
+                src={ecomSlidePic} width="100%"
+              ></img>
+              {/* <div
+                id="ai-ecommerce-slideshare"
+                contentEditable="true"
+                dangerouslySetInnerHTML={{ __html: aiEcommSlidesIframe }}>
+              </div> */}
+            </a>
           </div>
         </div>
-        <div style={{'padding-top': '100px'}}></div>
+        <div style={{'paddingTop': '100px'}}></div>
       </div>
     </div>
   </div>
