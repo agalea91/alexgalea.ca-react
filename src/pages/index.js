@@ -202,18 +202,20 @@ export default withSiteData(() => (
         </div>
         <div className="card-container">
           <div id="ecom-slide-pic">
-            <a href="https://www.slideshare.net/AlexanderGalea1/using-ai-for-ecommerce-analytics">
+            <a href="https://www.slideshare.net/AlexanderGalea1/using-ai-for-ecommerce-analytics" target="_blank">
               <img
                 className="image-white-frame"
                 alt="Alex Galea Using AI for Ecommerce Analytics"
                 src={ecomSlidePic} width="100%"
               ></img>
-              {/* <div
-                id="ai-ecommerce-slideshare"
-                contentEditable="true"
-                dangerouslySetInnerHTML={{ __html: aiEcommSlidesIframe }}>
-              </div> */}
             </a>
+          </div>
+        </div>
+        <div className="card-container">
+          <div
+            id="ai-ecommerce-slideshare"
+            contentEditable="true"
+            dangerouslySetInnerHTML={{ __html: aiEcommSlidesIframe }}>
           </div>
         </div>
         <div style={{'paddingTop': '100px'}}></div>
