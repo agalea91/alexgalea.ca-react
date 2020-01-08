@@ -211,13 +211,13 @@ export default withSiteData(() => (
             </a>
           </div>
         </div>
-        <div className="card-container">
+        {/* <div className="card-container">
           <div
             id="ai-ecommerce-slideshare"
             contentEditable="true"
             dangerouslySetInnerHTML={{ __html: aiEcommSlidesIframe }}>
           </div>
-        </div>
+        </div> */}
         <div style={{'paddingTop': '100px'}}></div>
       </div>
     </div>
