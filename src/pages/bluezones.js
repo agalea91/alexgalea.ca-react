@@ -80,8 +80,6 @@ export default withSiteData(() => (
             ></img>
           </a>
         </div>
-        {/* <Image src={blueZoneVenn} alt="" /> */}
-        {/* <Image src={blueZoneVenn} alt="" /> */}
         <div>
           <p className="text-body-1">
             I started a public instagram account, mostly to post photos

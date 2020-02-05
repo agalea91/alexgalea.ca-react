@@ -13,7 +13,7 @@ export default {
       },
       {
         path: '/bluezone',
-        component: 'src/pages/bluezone',
+        component: 'src/pages/bluezones',
       },
     ]
   },
