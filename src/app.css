@@ -41,6 +41,9 @@ nav a {
   justify-content: center;
   z-index: 1;
 }
+.main-content-div {
+  max-width: 100%;
+}
 .wrapper {
   width: 100%;
 }

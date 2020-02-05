@@ -46,7 +46,7 @@ export default withSiteData(() => (
     <div className="main-div">
       <img className="bg-img" id="homepage-bg-img-1" src={bgImg1} alt=""></img>
       <div className="bg-banner bg-white"></div>
-      <div>
+      <div className="main-content-div">
         <div className="text-title">
           <p className="bluezone-title-1">
             Blue Zones
@@ -61,7 +61,7 @@ export default withSiteData(() => (
             and legumes. 
           </p>
         </div>
-        <div className="card-container" style={{paddingTop: "5rem"}}>
+        <div className="card-container" style={{paddingTop: "50px"}}>
           <div className="white-bg-image-container" style={{background: 'white'}}>
             <a href="https://commons.wikimedia.org/wiki/File:3_blue_zones_venn_diagram.svg" target="_blank">
               <img
@@ -73,7 +73,7 @@ export default withSiteData(() => (
             </a>
           </div>
         </div>
-        <div className="card-container" style={{padding: "5rem"}}>
+        <div className="card-container" style={{paddingTop: "50px"}}>
           <a href="https://www.uu.nl/sites/default/files/articlestopicskeynotes.pdf" target="_blank">
             <img
               className="image-white-frame"

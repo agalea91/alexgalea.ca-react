@@ -161,7 +161,7 @@ export default withSiteData(() => (
             <InnerCard>Blog</InnerCard>
           </LinkCard> */}
           <Card
-            style={{'background': 'rgba(65, 240, 158, 0.4)'}}
+            style={{background: 'rgba(65, 240, 158, 0.4)'}}
             href="https://medium.com/@galea"
             target="_blank"
             // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
@@ -169,46 +169,58 @@ export default withSiteData(() => (
             <InnerCard>Medium Blog</InnerCard>
           </Card>
           <Card
-            style={{'background': 'rgba(65, 100, 240, 0.4)'}}
+            style={{background: 'rgba(65, 100, 240, 0.4)'}}
             href="https://www.linkedin.com/in/alex-galea/"
             target="_blank"
           >
             <InnerCard>Linkedin</InnerCard>
           </Card>
           <Card
-            style={{'background': 'rgba(240, 65, 170, 0.59)'}}
+            style={{background: 'rgba(240, 65, 170, 0.59)'}}
             href="https://www.amazon.com/Beginning-Data-Science-Python-Jupyter/dp/1789532027/"
             target="_blank"
           >
             <InnerCard>My Data Science Book</InnerCard>
           </Card>
           <Card
-            style={{'background': 'rgba(167, 65, 240, 0.3)'}}
+            style={{background: 'rgba(167, 65, 240, 0.3)'}}
             href="https://arxiv.org/pdf/1511.05123.pdf"
             target="_blank"
           >
             <InnerCard>My M.Sc Cold Atoms Paper</InnerCard>
           </Card>
-        </div>
-        <div className="card-container" style={{display: "flex", flexWrap: "wrap"}}>
+          <div style={{
+            display: "flex",
+            flexWrap: "wrap",
+            marginBottom: "5vh",
+          }}>
+            <Card
+              style={{
+                background: 'rgba(0, 0, 0, 0.3)',
+                maxWidth: '400px',
+                width: '200px',
+                marginBottom: 'auto',
+              }}
+              href="https://github.com/agalea91"
+              target="_blank"
+            >
+              <InnerCard>GitHub Profile</InnerCard>
+            </Card>
+            <Card
+              style={{
+                background: 'rgba(65, 231, 240, 0.3)',
+                maxWidth: '400px',
+                width: '200px',
+                marginBottom: 'auto',
+              }}
+              href="https://galeascience.wordpress.com/"
+              target="_blank"
+            >
+              <InnerCard>DataViz Blog</InnerCard>
+            </Card>
+          </div>
           <Card
-            style={{'background': 'rgba(0, 0, 0, 0.3)', 'maxWidth': '400px', 'width': '200px'}}
-            href="https://github.com/agalea91"
-            target="_blank"
-          >
-            <InnerCard>GitHub Profile</InnerCard>
-          </Card>
-          <Card
-            style={{'background': 'rgba(65, 231, 240, 0.3)', 'maxWidth': '400px', 'width': '200px'}}
-            href="https://galeascience.wordpress.com/"
-            target="_blank"
-          >
-            <InnerCard>DataViz Blog</InnerCard>
-          </Card>
-        </div>
-        <div className="card-container">
-          <Card
-            style={{'background': 'rgba(23, 13, 117, 0.3)'}}
+            style={{background: 'rgba(23, 13, 117, 0.3)'}}
             href="https://alexgalea.ca/bluezones"
             target="_blank"
           >
@@ -233,7 +245,7 @@ export default withSiteData(() => (
             dangerouslySetInnerHTML={{ __html: aiEcommSlidesIframe }}>
           </div>
         </div> */}
-        <div style={{'paddingTop': '100px'}}></div>
+        <div style={{paddingTop: '100px'}}></div>
       </div>
     </div>
   </div>
