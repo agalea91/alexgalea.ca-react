@@ -124,7 +124,7 @@ export default withSiteData(() => (
           Alex Galea
         </p>
         <p className="text-title-2">
-          <i>Python Software Engineer</i><br/>
+          <i>Python Data Engineer</i><br/>
           Data Science | ETL | Web Analytics
         </p>
         <p className="text-title-3">
