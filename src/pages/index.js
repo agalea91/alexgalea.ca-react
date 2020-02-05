@@ -1,5 +1,5 @@
 import React from 'react'
-import { withSiteData } from 'react-static'
+import { withSiteData, Head } from 'react-static'
 import bgImg1 from '../../public/alex_galea_raven.jpg'
 import alexPic1 from '../../public/alex_galea_alberta.jpg'
 import ecomSlidePic from '../../public/alex_galea_ecom_analytics.png'
@@ -111,6 +111,12 @@ function copyEmail(url, id) {
 
 export default withSiteData(() => (
   <div className="wrapper">
+    <Head>
+      <meta
+        name="description"
+        content="Alex Galea Python Data Engineer. Proudly Canadian, living in Vancouver, BC."
+      />
+    </Head>
     <ToastContainer enableMultiContainer
       containerId={'A'}
       newestOnTop={true}

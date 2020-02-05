@@ -1,5 +1,5 @@
 import React from 'react'
-import { withSiteData } from 'react-static'
+import { withSiteData, Head } from 'react-static'
 import bgImg1 from '../../public/alex_galea_raven.jpg'
 import blueZoneVenn from '../../public/blue-zones-venn-diagram.svg'
 import blueZoneMap from '../../public/blue-zones-map.png'
@@ -40,6 +40,9 @@ const InnerCard = styled.div`
 
 export default withSiteData(() => (
   <div className="wrapper">
+    <Head>
+      <title>alexgalea.ca | Blue Zones</title>
+    </Head>
     <div className="main-div">
       <img className="bg-img" id="homepage-bg-img-1" src={bgImg1} alt=""></img>
       <div className="bg-banner bg-white"></div>
@@ -53,7 +56,7 @@ export default withSiteData(() => (
           <p className="text-body-1" style={{paddingTop: "50px"}}>
             are regions where the average lifespan is much longer than normal.
             This can be attributed to their lower stress lifestyle, moderate
-            amount of physical activity, tendancy not to smoke, and diet.
+            amount of physical activity, tendency not to smoke, and diet.
             They eat a lot of plants, including whole grains, sweet potatoes,
             and legumes. 
           </p>
@@ -112,7 +115,7 @@ export default withSiteData(() => (
           </div>
           <p className="text-body-1">
             My goal is to inspire you to eat plants, avoid animal 
-            products, and have energy to be active every day!
+            products, and set aside more time to be physically active.
           </p>
         </div>
         <div style={{'paddingTop': '100px'}}></div>
