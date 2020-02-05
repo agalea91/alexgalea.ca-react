@@ -12,8 +12,8 @@ export default {
         component: 'src/pages/index',
       },
       {
-        path: '/blog',
-        component: 'src/pages/blog',
+        path: '/bluezone',
+        component: 'src/pages/bluezone',
       },
     ]
   },

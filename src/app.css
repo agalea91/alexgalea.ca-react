@@ -64,6 +64,10 @@ nav a {
 .image-white-frame {
   border-radius: 5px;
 }
+.white-bg-image-container {
+  background: white;
+  padding: 4rem;
+}
 
 /* Text */ 
 .text-title-1 {
@@ -83,8 +87,15 @@ nav a {
   font-size: 30px;
   line-height: 0.4;
 }
+.bluezone-title-1 {
+  color:white;
+  font-size: 140px;
+  line-height: 1;
+  margin-bottom: 10px;
+  line-height: 100px;
+}
 .text-body-1 {
-  color: black;
+  color:white;
   font-size: 30px;
   line-height: 1;
   /* padding-top: 0vh; */
@@ -93,15 +104,6 @@ nav a {
   /* text-align: left; */
   width: 500px;
   max-width: 95%;
-}
-.vertical-align {
-  /* Vertical align */
-  text-align: center;
-  position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 /* Background */
@@ -133,6 +135,7 @@ nav a {
 #homepage-bg-img-1 {
   opacity: 0.8;
 }
+
 
 /* Pictures */
 #ecom-slide-pic:hover {
