@@ -207,6 +207,15 @@ export default withSiteData(() => (
           </Card>
         </div>
         <div className="card-container">
+          <Card
+            style={{'background': 'rgba(23, 13, 117, 0.3)'}}
+            href="https://alexgalea.ca/bluezones"
+            target="_blank"
+          >
+            <InnerCard>Blue Zone Instagram</InnerCard>
+          </Card>
+        </div>
+        <div className="card-container">
           <div id="ecom-slide-pic">
             <a href="https://www.slideshare.net/AlexanderGalea1/using-ai-for-ecommerce-analytics" target="_blank">
               <img
