@@ -7,10 +7,13 @@ import './app.css'
 function App() {
   return (
     <Root>
-      {/* <nav>
+      <nav>
         <Link to="/">Home</Link>
-        <Link to="/wedding">Wedding</Link>
-      </nav> */}
+        <Link to="/blog">Blog</Link>
+        <Link to="/bluezones">Blue</Link>
+        {/* <Link to="/photos">Photos</Link>
+        <Link to="/photos/macros">Macros</Link> */}
+      </nav>
       <div className="content">
         <Routes />
       </div>

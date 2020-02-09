@@ -21,15 +21,21 @@ ul {
 li {
   margin-bottom: 2rem;
 }
-/* nav {
-  width: 100%;
-  background: #ff4242;
+nav {
+  width: 100vw;
+  max-width: 1400px;
+  font-size: 30px;
+  /* width: auto; */
+  background: rgba(94, 94, 94, 0.5);
+  margin: auto;
+
 }
 nav a {
   color: white;
+  opacity: 70%;
   padding: 1rem;
   display: inline-block;
-} */
+}
 
 /* Containers */
 .main-div {
@@ -120,15 +126,26 @@ nav a {
   left: 0;
   /* z-index: -1; */
 }
+
 .bg-img {
-  /* Size */
+
+  /* Full height */
   height: 100%;
-  width: auto;
+  min-height: 800px;
+
+
+  /* Size */
+  /* min-height: 100%;
+  min-width: 1920px;
+  width: 100%;
+  height: auto; */
+
   /* Position */
   position: fixed;
   top: 0;
   z-index: -1;
 }
+
 .bg-white {
   background-color: white;
 }

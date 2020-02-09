@@ -15,6 +15,10 @@ export default {
         path: '/bluezone',
         component: 'src/pages/bluezones',
       },
+      {
+        path: '/blog',
+        component: 'src/pages/blog',
+      },
     ]
   },
   siteRoot: 'https://alexgalea.ca',
