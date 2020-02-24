@@ -113,6 +113,15 @@ nav a {
   width: 500px;
   max-width: 95%;
 }
+.blog-body-1 {
+  max-width: 95%;
+  margin: auto;
+  color: white;
+  line-height: 2em;
+}
+.blog-body-1 a {
+  color: white;
+}
 
 /* Background */
 .bg-banner {
