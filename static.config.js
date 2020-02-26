@@ -19,6 +19,10 @@ export default {
         path: '/blog',
         component: 'src/pages/blog',
       },
+      {
+        path: '/twitter',
+        component: 'src/pages/twitter',
+      },
     ]
   },
   siteRoot: 'https://alexgalea.ca',

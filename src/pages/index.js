@@ -162,7 +162,7 @@ export default withSiteData(() => (
           </LinkCard> */}
           <Card
             style={{background: 'rgba(65, 240, 158, 0.4)'}}
-            href="https://medium.com/@galea"
+            href="/blog"
             target="_blank"
             // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
           >
@@ -188,6 +188,14 @@ export default withSiteData(() => (
             target="_blank"
           >
             <InnerCard>My M.Sc Cold Atoms Paper</InnerCard>
+          </Card>
+          <Card
+            style={{background: 'rgba(29, 202, 255, 0.6)'}}
+            href="/twitter"
+            target="_blank"
+            // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
+          >
+            <InnerCard>Twitter</InnerCard>
           </Card>
           <div style={{
             display: "flex",
