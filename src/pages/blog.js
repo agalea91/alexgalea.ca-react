@@ -31,11 +31,10 @@ export default withSiteData(() => (
       <div className="bg-banner bg-white"></div>
       <div>
         <p className="text-title-1">
-          Alex Galea
+          Blog
         </p>
         <p className="text-title-2">
-          <i>Python Data Engineer</i><br/>
-          Data Science | ETL | Web Analytics
+          <i>Alex Galea</i><br/>
         </p>
         {/* <div className="text-title-2" style={{paddingTop: "200px", paddingBottom: "500px"}}>
           Coming soon...
