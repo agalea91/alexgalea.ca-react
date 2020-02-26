@@ -11,6 +11,8 @@ Using version 6.3.3 of react static and version 1.13.0 of yarn.
 
 ## Developing
 
+This project uses yarn (as opposed to npm). You can replace "npm install" with "yarn add" when installing packages.
+
 Launch development server with `react-static start`. But you can also use yarn and I find that more reliable:
 
 ```
