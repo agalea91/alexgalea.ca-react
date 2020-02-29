@@ -189,6 +189,19 @@ export default withSiteData(() => (
           >
             <InnerCard>My M.Sc Cold Atoms Paper</InnerCard>
           </Card>
+        </div>
+        <div className="card-container">
+          <div id="ecom-slide-pic">
+            <a href="https://www.slideshare.net/AlexanderGalea1/using-ai-for-ecommerce-analytics" target="_blank">
+              <img
+                className="image-white-frame"
+                alt="Alex Galea Using AI for Ecommerce Analytics"
+                src={ecomSlidePic} width="100%"
+              ></img>
+            </a>
+          </div>
+        </div>
+        <div className="card-container">
           <Card
             style={{background: 'rgba(29, 202, 255, 0.6)'}}
             href="/twitter"
@@ -197,6 +210,8 @@ export default withSiteData(() => (
           >
             <InnerCard>Twitter</InnerCard>
           </Card>
+        </div>
+        <div className="card-container">
           <div style={{
             display: "flex",
             flexWrap: "wrap",
@@ -227,6 +242,8 @@ export default withSiteData(() => (
               <InnerCard>DataViz Blog</InnerCard>
             </Card>
           </div>
+        </div>
+        <div className="card-container">
           <Card
             style={{background: 'rgba(23, 13, 117, 0.3)'}}
             href="https://alexgalea.ca/bluezones"
@@ -234,17 +251,6 @@ export default withSiteData(() => (
           >
             <InnerCard>Blue Zone Instagram</InnerCard>
           </Card>
-        </div>
-        <div className="card-container">
-          <div id="ecom-slide-pic">
-            <a href="https://www.slideshare.net/AlexanderGalea1/using-ai-for-ecommerce-analytics" target="_blank">
-              <img
-                className="image-white-frame"
-                alt="Alex Galea Using AI for Ecommerce Analytics"
-                src={ecomSlidePic} width="100%"
-              ></img>
-            </a>
-          </div>
         </div>
         {/* <div className="card-container">
           <div
