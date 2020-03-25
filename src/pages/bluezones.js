@@ -1,9 +1,9 @@
 import React from 'react'
 import { withSiteData, Head } from 'react-static'
 import bgImg1 from '../../public/alex_galea_raven.jpg'
-import blueZoneVenn from '../../public/blue-zones-venn-diagram.svg'
-import blueZoneMap from '../../public/blue-zones-map.png'
-import scIcon from '../../public/social-media-icon.png'
+import blueZoneVenn from '../../public/blue_zones_venn_diagram.svg'
+import blueZoneMap from '../../public/blue_zones_map.jpg'
+import scIcon from '../../public/social_media_icon.png'
 import styled from 'styled-components'
 
 
