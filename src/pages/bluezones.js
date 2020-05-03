@@ -104,22 +104,26 @@ export default withSiteData(() => (
             as well.
           </p>
           <div className="card-container" style={{paddingTop: "3rem", maxWidth: "200px"}}>
-          <a href="https://instagram.com/bluezonealex" target="_blank">
-            <img
-              className="image-white-frame"
-              id="sc-icon"
-              alt=""
-              src={scIcon} width="100%"
-            ></img>
-          </a>
-            {/* <Card
-              style={{'background': 'rgba(255, 125, 160, 0.4)'}}
-              href="https://instagram.com/bluezonealex"
-              target="_blank"
-              // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
-            >
-              <InnerCard>Instagram</InnerCard>
-            </Card> */}
+            <a href="https://instagram.com/bluezonealex" target="_blank">
+              <img
+                className="image-white-frame"
+                id="sc-icon"
+                alt=""
+                src={scIcon} width="100%"
+              ></img>
+            </a>
+          </div>
+          <p className="text-body-1">
+            Check out my recipe book 😊 🌱
+          </p>
+          <div className="card-container" style={{paddingTop: "3rem", maxWidth: "400px"}}>
+              <Card
+                style={{background: 'rgba(0, 224, 146, 0.3)'}}
+                href="https://drive.google.com/open?id=1Mq46jUoUzVDapiRtqLFBnHj6sFGCOa9NqsPzHdArXJU"
+                target="_blank"
+              >
+              <InnerCard>Mostly Vegan Recipe Book</InnerCard>
+            </Card>
           </div>
           <p className="text-body-1">
             My goal is to inspire you to eat plants, avoid animal 

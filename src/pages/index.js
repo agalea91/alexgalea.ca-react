@@ -261,14 +261,14 @@ export default withSiteData(() => (
           >
             <InnerCard>Blue Zone Instagram</InnerCard>
           </Card>
+          <Card
+            style={{background: 'rgba(0, 224, 146, 0.3)'}}
+            href="https://drive.google.com/open?id=1Mq46jUoUzVDapiRtqLFBnHj6sFGCOa9NqsPzHdArXJU"
+            target="_blank"
+          >
+            <InnerCard>Mostly Vegan Recipe Book</InnerCard>
+          </Card>
         </div>
-        {/* <div className="card-container">
-          <div
-            id="ai-ecommerce-slideshare"
-            contentEditable="true"
-            dangerouslySetInnerHTML={{ __html: aiEcommSlidesIframe }}>
-          </div>
-        </div> */}
         <div style={{paddingTop: '100px'}}></div>
       </div>
     </div>
