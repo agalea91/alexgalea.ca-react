@@ -8,7 +8,7 @@ export default {
   }),
   getRoutes: async () => {
     const { data: postIndex } = await axios.get(
-      'https://alexgalea.ca/photoblog/posts_index.json'
+      'https://alexgalea.ca/photoblog/posts/posts_index.json'
     )
     
     return [
