@@ -14,7 +14,12 @@ data-buttonclass="btn btn-primary"
 data-offset="-100"></div>
 `
 
-
+var gtmScript = `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-114732034-2');
+`
 
 export default withSiteData(() => (
   <div className="wrapper">
@@ -24,6 +29,8 @@ export default withSiteData(() => (
         name="description"
         content="Alex Galea Python Data Engineer - Medium Blog."
       />
+      <script src="https://www.googletagmanager.com/gtag/js?id=UA-114732034-2"></script>
+      <script>{gtmScript}</script>
       <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
     </Head>
     <div className="main-div">

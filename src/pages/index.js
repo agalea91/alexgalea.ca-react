@@ -109,9 +109,19 @@ function copyEmail(url, id) {
   toast.info('Email copied to clipboard!', {containerId: 'A'});
 }
 
+
+var gtmScript = `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-114732034-2');
+`
+
 export default withSiteData(() => (
   <div className="wrapper">
     <Head>
+      <script src="https://www.googletagmanager.com/gtag/js?id=UA-114732034-2"></script>
+      <script>{gtmScript}</script>
       <meta
         name="description"
         content="Alex Galea Python Data Engineer. Proudly Canadian, living in Vancouver, BC."

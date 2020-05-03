@@ -37,11 +37,19 @@ const InnerCard = styled.div`
   height: 100%
 `
 
+var gtmScript = `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-114732034-2');
+`
 
 export default withSiteData(() => (
   <div className="wrapper">
     <Head>
       <title>alexgalea.ca | Blue Zones</title>
+      <script src="https://www.googletagmanager.com/gtag/js?id=UA-114732034-2"></script>
+      <script>{gtmScript}</script>
     </Head>
     <div className="main-div">
       <img className="bg-img" id="homepage-bg-img-1" src={bgImg1} alt=""></img>

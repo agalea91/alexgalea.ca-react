@@ -5,6 +5,13 @@ import bgImg1 from '../../public/alex_galea_alberta_mountains.jpg'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 
+var gtmScript = `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-114732034-2');
+`
+
 export default withSiteData(() => (
   <div className="wrapper">
     <Head>
@@ -13,6 +20,8 @@ export default withSiteData(() => (
         name="description"
         content="Alex Galea Python Data Engineer - Twitter Feed."
       />
+      <script src="https://www.googletagmanager.com/gtag/js?id=UA-114732034-2"></script>
+      <script>{gtmScript}</script>
     </Head>
     <div className="main-div">
       <img className="bg-img" id="homepage-bg-img-1" src={bgImg1} alt=""></img>
