@@ -11,7 +11,6 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/twitter">Twitter</Link>
-        <Link to="/bluezones">Blue</Link>
         {/* <Link to="/photos">Photos</Link>
         <Link to="/photos/macros">Macros</Link> */}
       </nav>

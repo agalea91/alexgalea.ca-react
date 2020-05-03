@@ -1,0 +1,22 @@
+{
+    "title": "My first post",
+    "cover_image": "2020-04-17/IMG_2296.jpg",
+    "date": "2020-04-17",
+    "post_id": "2020-04-17-1",
+    "content": [
+        {
+            "type": "img",
+            "src": "IMG_2296.jpg",
+            "caption": "Eat plants."
+        },
+        {
+            "type": "text",
+            "text": "... until the day you <b>die</b>.\nWhoosh."
+        },
+        {
+            "type": "img",
+            "src": "IMG_2296.jpg",
+            "caption": "Eat plants."
+        }
+    ]
+}

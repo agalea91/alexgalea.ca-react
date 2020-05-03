@@ -77,6 +77,16 @@ nav a {
   padding: 4rem;
 }
 
+.photoblog-index-post-img {
+  max-width: 100%;
+}
+.fullscreen-photo-gallery {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+
+
 /* Text */ 
 .text-title-1 {
   color:white;
@@ -122,6 +132,27 @@ nav a {
 .blog-body-1 a {
   color: white;
 }
+.photoblog-index-body-1 {
+  max-width: 95%;
+  margin: auto;
+  color: white;
+  line-height: 2em;
+}
+.photoblog-index-body-1 a {
+  color: white;
+}
+.photoblog-body-1 {
+  max-width: 95%;
+  margin: auto;
+  color: white;
+  line-height: 2em;
+}
+.photoblog-body-1 a {
+  color: white;
+}
+
+
+
 
 /* Background */
 .bg-banner {

@@ -96,14 +96,26 @@ export default withSiteData(() => (
             as well.
           </p>
           <div className="card-container" style={{paddingTop: "3rem", maxWidth: "200px"}}>
-          <a href="https://instagram.com/bluezonealex" target="_blank">
-            <img
-              className="image-white-frame"
-              id="sc-icon"
-              alt=""
-              src={scIcon} width="100%"
-            ></img>
-          </a>
+            <a href="https://instagram.com/bluezonealex" target="_blank">
+              <img
+                className="image-white-frame"
+                id="sc-icon"
+                alt=""
+                src={scIcon} width="100%"
+              ></img>
+            </a>
+          </div>
+          <p className="text-body-1">
+            Check out my recipe book 😊 🌱
+          </p>
+          <div className="card-container" style={{paddingTop: "3rem", maxWidth: "400px"}}>
+            <Card
+              style={{background: 'rgba(0, 224, 146, 0.3)'}}
+              href="https://alexgalea.ca/K&A%20Van%20City%20Mostly%20Vegan.pdf"
+              target="_blank"
+            >
+              <InnerCard>Mostly Vegan Recipe Book</InnerCard>
+            </Card>
             {/* <Card
               style={{'background': 'rgba(255, 125, 160, 0.4)'}}
               href="https://instagram.com/bluezonealex"

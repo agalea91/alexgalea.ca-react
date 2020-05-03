@@ -1,0 +1,21 @@
+{
+    "version": "0.1",
+    "posts": [
+        {
+            "title": "My second post",
+            "cover_image": "2020/2020-04-19/IMG_1576.jpg",
+            "date": "2020-04-19",
+            "post_id": "2020-04-19-1",
+            "year": "2020",
+            "post_ytd_number": 2
+        },
+        {
+            "title": "My first post",
+            "cover_image": "2020/2020-04-17/IMG_2296.jpg",
+            "date": "2020-04-17",
+            "post_id": "2020-04-17-1",
+            "year": "2020",
+            "post_ytd_number": 1
+        }
+    ]
+}

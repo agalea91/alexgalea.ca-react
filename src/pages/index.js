@@ -144,7 +144,9 @@ export default withSiteData(() => (
           </div>
         </div>
         <div className="card-container">
-          <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
+          <a
+            href="https://alexgalea.ca/alex_galea_alberta.jpg"
+            target="_blank">
             <img
               className="image-white-frame"
               id="alex-hiking-pic"
@@ -205,7 +207,6 @@ export default withSiteData(() => (
           <Card
             style={{background: 'rgba(29, 202, 255, 0.6)'}}
             href="/twitter"
-            target="_blank"
             // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
           >
             <InnerCard>Twitter</InnerCard>
@@ -247,9 +248,15 @@ export default withSiteData(() => (
           <Card
             style={{background: 'rgba(23, 13, 117, 0.3)'}}
             href="https://alexgalea.ca/bluezones"
-            target="_blank"
           >
             <InnerCard>Blue Zone Instagram</InnerCard>
+          </Card>
+          <Card
+            style={{background: 'rgba(0, 224, 146, 0.3)'}}
+            href="https://alexgalea.ca/K&A%20Van%20City%20Mostly%20Vegan.pdf"
+            target="_blank"
+          >
+            <InnerCard>Mostly Vegan Recipe Book</InnerCard>
           </Card>
         </div>
         {/* <div className="card-container">

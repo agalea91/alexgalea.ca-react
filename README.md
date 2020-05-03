@@ -1,5 +1,7 @@
 # [alexgalea.ca](https://alexgalea.ca/)
 
+Use only YARN for this project, not NPM!
+
 If project breaks, run `react-static create` and use the `basic` template as a starting point. Then run the following to add packages:
 
 ```
