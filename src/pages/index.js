@@ -179,7 +179,7 @@ export default withSiteData(() => (
             <InnerCard>Linkedin</InnerCard>
           </Card>
           <div id="text-quote-1">
-            Beautiful code is dependabile, maintainable, and easy to learn.
+            Beautiful code is more dependable, easier to maintain, and can be learned faster.
           </div>
           <Card
             style={{background: 'rgba(240, 65, 170, 0.59)'}}
