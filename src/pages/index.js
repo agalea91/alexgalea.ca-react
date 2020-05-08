@@ -153,15 +153,8 @@ export default withSiteData(() => (
             </EmailCard>
           </div>
         </div>
-        <div className="card-container">
-          <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
-            <img
-              className="image-white-frame"
-              id="alex-hiking-pic"
-              alt="Alex Galea hiking in Alberta, Canada"
-              src={alexPic1} width="100%"
-            ></img>
-          </a>
+        <div id="text-quote-1">
+          Code should be beautiful.
         </div>
         <div className="card-container">
           {/* <Card>
@@ -185,6 +178,9 @@ export default withSiteData(() => (
           >
             <InnerCard>Linkedin</InnerCard>
           </Card>
+          <div id="text-quote-1">
+            Beautiful code is dependabile, maintainable, and easy to learn.
+          </div>
           <Card
             style={{background: 'rgba(240, 65, 170, 0.59)'}}
             href="https://www.amazon.com/Beginning-Data-Science-Python-Jupyter/dp/1789532027/"
@@ -269,8 +265,17 @@ export default withSiteData(() => (
             <InnerCard>Mostly Vegan Recipe Book</InnerCard>
           </Card>
         </div>
-        <div style={{paddingTop: '100px'}}></div>
+        <div style={{paddingTop: '50px'}}></div>
       </div>
+    </div>
+    <div id="homepage-image-bottom">
+      <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
+        <img
+          id="alex-hiking-pic"
+          alt="Alex Galea hiking in Alberta, Canada"
+          src={alexPic1} width="100%"
+        ></img>
+      </a>
     </div>
   </div>
 ))
