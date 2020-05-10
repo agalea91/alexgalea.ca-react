@@ -189,6 +189,7 @@ nav a {
 #homepage-image-bottom {
   border-radius: 0px;
   padding-bottom: 0px;
+  overflow: hidden;
 }
 
 #alex-hiking-pic {
