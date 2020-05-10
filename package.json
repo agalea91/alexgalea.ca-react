@@ -17,6 +17,7 @@
     "react-hot-loader": "^4.3.12",
     "react-static": "^6.0.18",
     "react-toastify": "^5.4.1",
+    "react-tooltip": "^4.2.6",
     "react-twitter-embed": "^3.0.3",
     "styled-components": "^4.2.0"
   },

@@ -3,10 +3,12 @@ import { withSiteData, Head } from 'react-static'
 import bgImg1 from '../../public/alex_galea_raven.jpg'
 import alexPic1 from '../../public/alex_galea_alberta.jpg'
 import ecomSlidePic from '../../public/alex_galea_ecom_analytics.jpg'
+import githubLogo from '../../public/GitHub-Mark-Light-120px-plus.png'
 import styled from 'styled-components'
 import { Link } from '@reach/router'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.min.css'
+import ReactTooltip from "react-tooltip";
 
 
 const Card = styled.a`
@@ -127,6 +129,7 @@ export default withSiteData(() => (
         content="Alex Galea Python Data Engineer. Proudly Canadian, living in Vancouver, BC."
       />
     </Head>
+    <ReactTooltip />
     <ToastContainer enableMultiContainer
       containerId={'A'}
       newestOnTop={true}
@@ -179,7 +182,7 @@ export default withSiteData(() => (
             <InnerCard>Linkedin</InnerCard>
           </Card>
           <div id="text-quote-1">
-            Beautiful code is more dependable, easier to maintain, and can be learned faster.
+            Beautiful code is dependable, maintainable, and easy to learn.
           </div>
           <Card
             style={{background: 'rgba(240, 65, 170, 0.59)'}}
@@ -268,14 +271,37 @@ export default withSiteData(() => (
         <div style={{paddingTop: '50px'}}></div>
       </div>
     </div>
-    <div id="homepage-image-bottom">
-      <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
-        <img
-          id="alex-hiking-pic"
-          alt="Alex Galea hiking in Alberta, Canada"
-          src={alexPic1} width="100%"
-        ></img>
+    <div id="homepage-github-logo-bottom">
+      <a href="https://github.com/agalea91/alexgalea.ca-react" target="_blank">
+          <img
+            data-tip="Source Code for alexgalea.ca"
+            className="github-logo-footer-img"
+            alt="GitHub source code"
+            src={githubLogo} width="120px"
+          ></img>
       </a>
+    </div>
+    <div id="homepage-footer-container">
+      {/* Code below has github logo overlap */}
+      {/* <div id="homepage-github-logo-overlap">
+        <a href="https://github.com/agalea91/alexgalea.ca-react" target="_blank">
+            <img
+              data-tip="Source Code for alexgalea.ca"
+              className="github-logo-footer-img"
+              alt="GitHub source code"
+              src={githubLogo} width="64px"
+            ></img>
+        </a>
+      </div> */}
+      <div id="homepage-image-bottom">
+        <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
+          <img
+            id="alex-hiking-pic"
+            alt="Alex Galea hiking in Alberta, Canada"
+            src={alexPic1} width="100%"
+          ></img>
+        </a>
+      </div>
     </div>
   </div>
 ))
