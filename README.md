@@ -1,5 +1,10 @@
 # [alexgalea.ca](https://alexgalea.ca/)
 
+### This is a failed implementation of react-static dynamic importing
+I wanted to read from a config file and use it to dynamically generate pages on my site. I could not get it working for some reason... :(
+
+## Master branch README at fork:
+
 Use only YARN for this project, not NPM!
 
 If project breaks, run `react-static create` and use the `basic` template as a starting point. Then run the following to add packages:
