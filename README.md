@@ -43,3 +43,12 @@ Invalidate cloudfront cache
 aws cloudfront create-invalidation --distribution-id E2JTJP15FWKFBS --paths '/*'
 ```
 
+## Email
+
+I setup email forwarding for `alex@alexgalea.ca` to my Gmail using https://app.improvmx.com/
+
+They provided me with an MX record and a TXT record that I added using Route53.
+
+At this point I can receive emails to Gmail. Follow this guide to send email from Gmail: https://stackoverflow.com/a/57268127/3511819
+
+
