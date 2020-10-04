@@ -107,7 +107,7 @@ const InnerEmailCard = styled.div`
 
 
 function copyEmail(url, id) {
-  navigator.clipboard.writeText("agalea91@gmail.com");
+  navigator.clipboard.writeText("alex@alexgalea.ca");
   toast.info('Email copied to clipboard!', {containerId: 'A'});
 }
 
@@ -152,7 +152,7 @@ export default withSiteData(() => (
         <div>
           <div className="card-container">
             <EmailCard>
-              <InnerEmailCard id="inner-email-card" onClick={copyEmail}>agalea91@gmail.com</InnerEmailCard>
+              <InnerEmailCard id="inner-email-card" onClick={copyEmail}>alex@alexgalea.ca</InnerEmailCard>
             </EmailCard>
           </div>
         </div>
@@ -184,12 +184,31 @@ export default withSiteData(() => (
           <div id="text-quote-1">
             Beautiful code is dependable, maintainable, and easy to learn.
           </div>
+          <p className="datapipe-newsletter-container">
+            <iframe
+              src="https://datapipe.substack.com/embed"
+              id="datapipe-newsletter-iframe"
+              width="100%"
+              height="300"
+              frameborder="0"
+              scrolling="no">
+            </iframe>
+          </p>
           <Card
             style={{background: 'rgba(240, 65, 170, 0.59)'}}
             href="https://www.amazon.com/Beginning-Data-Science-Python-Jupyter/dp/1789532027/"
             target="_blank"
           >
             <InnerCard>My Data Science Book</InnerCard>
+          </Card>
+          <Card
+            style={{
+              background: 'rgba(0, 0, 0, 0.3)',
+            }}
+            href="https://github.com/agalea91"
+            target="_blank"
+          >
+            <InnerCard>GitHub Profile</InnerCard>
           </Card>
           <Card
             style={{background: 'rgba(167, 65, 240, 0.3)'}}
@@ -210,17 +229,7 @@ export default withSiteData(() => (
             </a>
           </div>
         </div>
-        <div className="card-container">
-          <Card
-            style={{background: 'rgba(29, 202, 255, 0.6)'}}
-            href="/twitter"
-            target="_blank"
-            // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
-          >
-            <InnerCard>Twitter</InnerCard>
-          </Card>
-        </div>
-        <div className="card-container">
+        {/* <div className="card-container">
           <div style={{
             display: "flex",
             flexWrap: "wrap",
@@ -228,15 +237,16 @@ export default withSiteData(() => (
           }}>
             <Card
               style={{
-                background: 'rgba(0, 0, 0, 0.3)',
+                background: 'rgba(29, 202, 255, 0.6)'
                 maxWidth: '400px',
                 width: '200px',
                 marginBottom: 'auto',
               }}
-              href="https://github.com/agalea91"
+              href="/twitter"
               target="_blank"
+              // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
             >
-              <InnerCard>GitHub Profile</InnerCard>
+              <InnerCard>Twitter</InnerCard>
             </Card>
             <Card
               style={{
@@ -251,8 +261,8 @@ export default withSiteData(() => (
               <InnerCard>DataViz Blog</InnerCard>
             </Card>
           </div>
-        </div>
-        <div className="card-container">
+        </div> */}
+        {/* <div className="card-container">
           <Card
             style={{background: 'rgba(23, 13, 117, 0.3)'}}
             href="https://alexgalea.ca/bluezones"
@@ -267,7 +277,7 @@ export default withSiteData(() => (
           >
             <InnerCard>Mostly Vegan Recipe Book</InnerCard>
           </Card>
-        </div>
+        </div> */}
         <div style={{paddingTop: '50px'}}></div>
       </div>
     </div>

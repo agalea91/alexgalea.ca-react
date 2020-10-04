@@ -67,6 +67,10 @@ nav a {
   height: 50vw;
   max-width: 100%;
 }
+.datapipe-newsletter-container {
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
 
 /* Images */
 #homepage-image-1 {
@@ -214,6 +218,9 @@ nav a {
   width: 70%;
   max-width: 600px;
   margin: auto;
+}
+#datapipe-newsletter-iframe {
+  border:1px solid #EEE; background:white;
 }
 
 
