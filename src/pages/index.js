@@ -196,10 +196,13 @@ export default withSiteData(() => (
           </p>
           <Card
             style={{background: 'rgba(240, 65, 170, 0.59)'}}
-            href="https://www.amazon.com/Beginning-Data-Science-Python-Jupyter/dp/1789532027/"
+            href="https://www.amazon.com/Applied-Data-Science-Workshop-applications-ebook-dp-B08C68F4XF/dp/B08C68F4XF"
             target="_blank"
           >
-            <InnerCard>My Data Science Book</InnerCard>
+            <InnerCard style={{ lineHeight: "100%" }}><p>
+              My Data Science Book<br></br>
+              <i style={{ fontSize: "80%" }}>2020, 2nd ed.</i>
+            </p></InnerCard>
           </Card>
           <Card
             style={{
