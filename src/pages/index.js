@@ -128,6 +128,10 @@ export default withSiteData(() => (
         name="description"
         content="Alex Galea Python Data Engineer. Proudly Canadian, living in Vancouver, BC."
       />
+      <meta
+        name="og:image"
+        content="https://alexgalea.ca/alex_galea_alberta.jpg"
+      />
     </Head>
     <ReactTooltip />
     <ToastContainer enableMultiContainer

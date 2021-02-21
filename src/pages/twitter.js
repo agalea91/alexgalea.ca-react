@@ -20,6 +20,10 @@ export default withSiteData(() => (
         name="description"
         content="Alex Galea Python Data Engineer - Twitter Feed."
       />
+      <meta
+        name="og:image"
+        content="https://alexgalea.ca/alex_galea_alberta.jpg"
+      />
       <script src="https://www.googletagmanager.com/gtag/js?id=UA-114732034-2"></script>
       <script>{gtmScript}</script>
     </Head>
