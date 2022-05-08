@@ -1,7 +1,7 @@
 import React from 'react'
 import { withSiteData, Head } from 'react-static'
 import bgImg1 from '../../public/alex_galea_raven.jpg'
-import alexPic1 from '../../public/alex_galea_alberta.jpg'
+import alexPic1 from '../../public/alexander-galea-the-lions-2021.jpg'
 import ecomSlidePic from '../../public/alex_galea_ecom_analytics.jpg'
 import githubLogo from '../../public/GitHub-Mark-Light-120px-plus.png'
 import styled from 'styled-components'
@@ -126,7 +126,7 @@ export default withSiteData(() => (
       <script>{gtmScript}</script>
       <meta
         name="description"
-        content="Alex Galea Python Data Engineer. Proudly Canadian, living in Vancouver, BC."
+        content="Alex Galea Python Data Engineer. Proudly Canadian, living in Toronto, ON."
       />
       <meta
         name="og:image"
@@ -147,8 +147,9 @@ export default withSiteData(() => (
           Alex Galea
         </p>
         <p className="text-title-2">
-          <i>Python Data Engineer</i><br/>
-          Data Science | ETL | Web Analytics
+          <i>Python Data Engineer</i>
+          {/* <br/>
+          Data Science | ETL | Web Analytics */}
         </p>
         <p className="text-title-3">
           Get in touch ⬇
@@ -161,32 +162,24 @@ export default withSiteData(() => (
           </div>
         </div>
         <div id="text-quote-1">
-          Code should be beautiful.
+          Vegan Advocate.
         </div>
         <div className="card-container">
+          <Card
+            style={{background: 'rgba(65, 240, 158, 0.4)'}}
+            href="/vegan-prana-power-meals"
+            target="_blank"
+          >
+            <InnerCard>Vegan Prana Power Meals</InnerCard>
+          </Card>
           {/* <Card>
             <div id="iframe-parent"></div>
           </Card> */}
           {/* <LinkCard to="/blog">
             <InnerCard>Blog</InnerCard>
           </LinkCard> */}
-          <Card
-            style={{background: 'rgba(65, 240, 158, 0.4)'}}
-            href="https://medium.com/@galea"
-            target="_blank"
-            // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
-          >
-            <InnerCard>Medium Blog</InnerCard>
-          </Card>
-          <Card
-            style={{background: 'rgba(65, 100, 240, 0.4)'}}
-            href="https://www.linkedin.com/in/alex-galea/"
-            target="_blank"
-          >
-            <InnerCard>Linkedin</InnerCard>
-          </Card>
           <div id="text-quote-1">
-            Beautiful code is dependable, maintainable, and easy to learn.
+            Programmer and ex Physicist.
           </div>
           <p className="datapipe-newsletter-container">
             <iframe
@@ -199,6 +192,14 @@ export default withSiteData(() => (
             </iframe>
           </p>
           <Card
+            style={{background: 'rgba(65, 240, 158, 0.4)'}}
+            href="https://medium.com/@galea"
+            target="_blank"
+            // onClick={() => iframeRender("https://medium.com/@galea", "iframe-parent")}
+          >
+            <InnerCard>Medium Blog</InnerCard>
+          </Card>
+          <Card
             style={{background: 'rgba(240, 65, 170, 0.59)'}}
             href="https://www.amazon.com/Applied-Data-Science-Workshop-applications-ebook-dp-B08C68F4XF/dp/B08C68F4XF"
             target="_blank"
@@ -209,21 +210,19 @@ export default withSiteData(() => (
             </p></InnerCard>
           </Card>
           <Card
-            style={{
-              background: 'rgba(0, 0, 0, 0.3)',
-            }}
-            href="https://github.com/agalea91"
-            target="_blank"
-          >
-            <InnerCard>GitHub Profile</InnerCard>
-          </Card>
-          <Card
             style={{background: 'rgba(167, 65, 240, 0.3)'}}
             href="https://arxiv.org/pdf/1511.05123.pdf"
             target="_blank"
           >
             <InnerCard>My M.Sc Cold Atoms Paper</InnerCard>
           </Card>
+          {/* <Card
+            style={{background: 'rgba(65, 100, 240, 0.4)'}}
+            href="https://www.linkedin.com/in/alex-galea/"
+            target="_blank"
+          >
+            <InnerCard>Linkedin</InnerCard>
+          </Card> */}
         </div>
         <div className="card-container">
           <div id="ecom-slide-pic">
@@ -298,6 +297,11 @@ export default withSiteData(() => (
           ></img>
       </a>
     </div>
+    <div className="main-div">
+      <div id="text-quote-1">
+        Explorer.
+      </div>
+    </div>
     <div id="homepage-footer-container">
       {/* Code below has github logo overlap */}
       {/* <div id="homepage-github-logo-overlap">
@@ -311,13 +315,13 @@ export default withSiteData(() => (
         </a>
       </div> */}
       <div id="homepage-image-bottom">
-        <a href="https://alexgalea.ca/alex_galea_alberta.jpg" target="_blank">
+        {/* <a href="https://alexgalea.ca/alexander-galea-the-lions-2021.jpg" target="_blank"> */}
           <img
             id="alex-hiking-pic"
             alt="Alex Galea hiking in Alberta, Canada"
             src={alexPic1} width="100%"
           ></img>
-        </a>
+        {/* </a> */}
       </div>
     </div>
   </div>
